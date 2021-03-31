@@ -1,0 +1,16 @@
+.hero {
+  position: relative;
+  /* background-image: url(https://www.autokingne.co.uk/media/4218/budget-tyres-middlesbrough.jpeg); */
+  background-size: cover;
+  background-position: center;
+}
+.hero h1 {
+  font-size: 70px;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+}
+.hero p {
+  color: rgb(0, 0, 0);
+}
