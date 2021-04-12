@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+@font-face {
+  font-family: "Rubik One";
+  src: url("/assests/RubikOne-Regular.ttf") format("truetype");
+}
+
+h1 {
+  font-family: Rubik One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: px;
+  color: #ffffff;
+}
+
+.banner-image {
+  background-image: url("/img/hero-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#heroImg {
+  width: 100%;
+  max-width: 500px;
+}
+.glass {
+  background: rgba(0, 11, 17, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom-right-radius: 10px;
+}
+.glass-cont {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+body {
+  margin-top: 100px;
+}
+nav a {
+  color: #000000;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(57, 54, 238);
+}
+
+/* Cards */
+
+#card {
+  max-width: 600px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 30px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right bottom;
+  border-radius: 0.5rem;
+  position: relative;
+  height: 303px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/img/Hero\ Section.jpg);
+}
+
+#cardTitle {
+  position: absolute;
+  width: 80%;
+  left: 26px;
+  top: 52px;
+
+  font-family: Rubik One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 0px;
+  /* identical to box height, or 0% */
+
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+#cardText {
+  position: absolute;
+  width: 60%;
+  left: 26px;
+  top: 74px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 40px;
+  /* identical to box height, or 0% */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+#cardBtn {
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  padding: 15px;
+  left: 26px;
+  bottom: 120px;
+  background: #2e87db;
+
+  font-family: Rubik One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 0px;
+  /* identical to box height, or 0% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+#heroBtn {
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  padding: 15px;
+
+  background: #2e87db;
+
+  font-family: Rubik One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 0px;
+  /* identical to box height, or 0% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+@media only screen and (max-width: 380px) {
+  #cardBtn {
+    font-size: 15px;
+    bottom: 150px;
+  }
+}

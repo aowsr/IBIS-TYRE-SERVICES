@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IBIS TYRE SERVICS</title>
+
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="/assests/css/styles.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -18,34 +22,6 @@
     />
 
     <script type="text/javascript" src="/js/OverlayScrollbars.min.js"></script>
-    <style>
-      .banner-image {
-        background-image: url("/img/tyre-on-road.jpg");
-        background-size: cover;
-      }
-      .glass {
-        background: rgba(0, 11, 17, 0.2);
-        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-        backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
-        border-bottom-right-radius: 10px;
-      }
-      .glass-cont {
-        background: rgba(255, 255, 255, 0.25);
-        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-        backdrop-filter: blur(4px);
-        -webkit-backdrop-filter: blur(4px);
-        border-radius: 10px;
-      }
-      nav a {
-        color: #000000;
-        text-decoration: none;
-      }
-
-      nav a:hover {
-        color: rgb(57, 54, 238);
-      }
-    </style>
   </head>
   <body>
     <!-- NavBar -->
@@ -91,10 +67,20 @@
     <header>
       <!-- Banner Image -->
       <div
-        class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
+        class="banner-image d-flex justify-content-center align-items-center"
       >
-        <div class="container col-xxl-8 px-5 py-5 glass-cont">
-          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="container">
+          <div class="row flex-lg-row-reverse align-items-center py-5">
+            <div class="col-lg-8">
+              <!-- <img
+                src="/img/ibis-van-plain.png"
+                class="rounded img-fluid"
+                id="heroImg"
+                alt="Tyre Service"
+                loading="lazy"
+              /> -->
+            </div>
+
             <div class="col-lg-4">
               <h1
                 class="display-5 fw-bold lh-1 mb-3 animate__animated animate__fadeIn animate__faster"
@@ -108,57 +94,87 @@
                 <button
                   type="button"
                   class="btn btn-primary btn-lg px-4 me-md-2"
+                  id="heroBtn"
                 >
                   Let's Talk
                 </button>
               </div>
             </div>
-
-            <div class="col-lg-8">
-              <img
-                src="/img/ibis-van-plain.png"
-                class="rounded img-fluid"
-                alt="Tyre Service"
-                width="1000"
-                loading="lazy"
-              />
-            </div>
           </div>
         </div>
       </div>
       <!-- Main Content -->
-      <div class="container my-5 d-grid gap-5">
-        <div class="p-5 border">
+      <!-- Cards -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-lg-6">
+            <div class="card" id="card">
+              <div class="card-img-overlay">
+                <h1 class="card-title" id="cardTitle">MOBILE TYRE FITTING</h1>
+                <p class="card-text" id="cardText">
+                  WE COME TO YOU AT HOME OR WORK
+                </p>
+                <a href="#" class="btn" id="cardBtn">BOOK NOW</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6">
+            <div class="card" id="card">
+              <div class="card-img-overlay">
+                <h1 class="card-title" id="cardTitle">MOBILE TYRE FITTING</h1>
+                <p class="card-text" id="cardText">
+                  WE COME TO YOU AT HOME OR WORK
+                </p>
+                <a href="#" class="btn" id="cardBtn">BOOK NOW</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6">
+            <div class="card" id="card">
+              <div class="card-img-overlay">
+                <h1 class="card-title" id="cardTitle">MOBILE TYRE FITTING</h1>
+                <p class="card-text" id="cardText">
+                  WE COME TO YOU AT HOME OR WORK
+                </p>
+                <a href="#" class="btn" id="cardBtn">BOOK NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-5 d-grid gap-5 glass-cont">
+        <div class="p-5">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora esse
           quidem error quasi harum, explicabo eum maxime culpa quaerat?
           Voluptatem quisquam illum perferendis numquam quia eos provident animi
           incidunt odit.
         </div>
-        <div class="p-5 border">
+        <div class="p-5">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora esse
           quidem error quasi harum, explicabo eum maxime culpa quaerat?
           Voluptatem quisquam illum perferendis numquam quia eos provident animi
           incidunt odit.
         </div>
-        <div class="p-5 border">
+        <div class="p-5">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora esse
           quidem error quasi harum, explicabo eum maxime culpa quaerat?
           Voluptatem quisquam illum perferendis numquam quia eos provident animi
           incidunt odit.
         </div>
-        <div class="p-5 border">
+        <div class="p-5">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora esse
           quidem error quasi harum, explicabo eum maxime culpa quaerat?
           Voluptatem quisquam illum perferendis numquam quia eos provident animi
           incidunt odit.
         </div>
-        <div class="p-5 border">
+        <div class="p-5">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora esse
           quidem error quasi harum, explicabo eum maxime culpa quaerat?
           Voluptatem quisquam illum perferendis numquam quia eos provident animi
           incidunt odit.
         </div>
-        <div class="p-5 border">
+        <div class="p-5">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora esse
           quidem error quasi harum, explicabo eum maxime culpa quaerat?
           Voluptatem quisquam illum perferendis numquam quia eos provident animi
