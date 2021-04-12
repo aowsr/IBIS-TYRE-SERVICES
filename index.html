@@ -42,6 +42,7 @@
           aria-controls="toggleMobileMenu"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          style="background-color: #ffffff"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -58,7 +59,7 @@
               <a href="#" class="nav-link">About Us</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Contact</a>
+              <a href="#" class="nav-link contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -185,7 +186,7 @@
       var nav = document.querySelector("nav");
 
       document.addEventListener("scroll", function () {
-        if (window.pageYOffset > 100) {
+        if (window.pageYOffset > 50) {
           nav.classList.add(
             "glass",
             "shadow",
