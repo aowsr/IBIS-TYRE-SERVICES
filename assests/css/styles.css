@@ -175,12 +175,12 @@ nav a:hover {
 @media only screen and (max-width: 420px) {
   #cardBtn {
     padding: 0;
-    font-size: 1rem;
+    font-size: 5px;
     bottom: 150px;
   }
   #heroBtn {
     padding: 0;
-    font-size: 1.1rem;
+    font-size: 10px;
   }
   .banner-image {
     background-image: url("/img/hero-img-mobile.jpg");
