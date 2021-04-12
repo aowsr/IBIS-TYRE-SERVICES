@@ -34,11 +34,10 @@ p {
   max-width: 500px;
 }
 .glass {
-  background: rgba(0, 11, 17, 0.2);
+  background: rgba(255, 255, 255, 0.55);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border-bottom-right-radius: 10px;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
 }
 .glass-cont {
   background: rgba(255, 255, 255, 0.25);
