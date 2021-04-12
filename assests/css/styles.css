@@ -150,10 +150,7 @@ nav a:hover {
 
 #heroBtn {
   position: absolute;
-  width: max-content;
-  height: max-content;
-  padding: 5px;
-
+  width: 160px;
   background: #2e87db;
 
   font-family: Rubik One;
